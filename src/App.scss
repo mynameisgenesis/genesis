@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Roboto&family=Zilla+Slab+Highlight&display=swap');
+
+$primaryColor: #000000;
+$spacingSm: 5px;
+$spacingMed: 10px;
+$spacingLg: 15px;
+$spacingXl: 25px;
+$primaryBorder: 2px solid #000000;
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Inconsolata', monospace;
+  color: $primaryColor;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  color: $primaryColor;
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+  border-bottom: $primaryBorder;
+  height: 75px;
+  padding-top: $spacingMed;
+  padding-bottom: $spacingMed;
+  a {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    text-decoration: none;
+    color: $primaryColor;
+    margin-left: 5px;
+    margin-right: 5px;
+    :hover {
+      color: darken($color: $primaryColor, $amount: 0);
+    }
+
+    :visited {
+      color: $primaryColor;
+    }
+  }
+
+  .nav-logo {
+    margin-left: $spacingMed;
+    float: left;
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 36px;;
+  }
+
+  .nav-links {
+    padding-top: $spacingMed;
+  }
+}
+
+body {
+  border: $primaryBorder;
+  font-family: 'Roboto', sans-serif;
+
+  #main {
+    padding: $spacingLg;
+  }
+}
+
+.highlight:hover {
+  color: #ffffff;
+  background-color: $primaryColor;
+  transition: width 2s;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  border-bottom: $primaryBorder;
+  height: 75px;
+  padding-top: $spacingMed;
+  padding-bottom: $spacingMed;
+}

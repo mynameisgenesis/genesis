@@ -1,10 +1,11 @@
 import React, {Fragment} from 'react';
 import WorkHistory from './WorkHistory/WorkHistory';
+import Title from '../../components/Title/Title';
 
 const Resume = () => {
     return(
         <Fragment>
-            <h1 className="text-center highlight">Work History</h1>
+            <Title classes={"highlight"}>Work History</Title>
             <WorkHistory jobTitle="Computer Programmer" company="Aeva Specialty Pharmacy">
                 <ul>
                     <li>Using the 2019 Microsoft Visual Studio development tool, performed programming in .Net Core and C#.</li>

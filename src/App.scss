@@ -57,7 +57,11 @@ body {
   font-family: 'Roboto', sans-serif;
 
   #main {
-    padding: $spacingLg;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: $spacingLg;
+    padding-right: $spacingLg;
+    padding-bottom: $spacingLg;
   }
 }
 

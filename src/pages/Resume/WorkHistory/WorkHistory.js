@@ -5,7 +5,7 @@ const WorkHistory = (props) => {
         <Fragment>
             <h3>{props.jobTitle}</h3>
             <h5>{props.company}</h5>
-            <p>{props.children}</p>
+            <div>{props.children}</div>
         </Fragment>
     );
 }

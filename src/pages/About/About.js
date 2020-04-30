@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import Title from '../../components/Title/Title';
-import { Row, Col, Image } from 'react-bootstrap';
-import Avatar from '../../images/avatar.png';
+import { Row, Col } from 'react-bootstrap';
 
 const About = () => {
     return(
@@ -9,7 +8,7 @@ const About = () => {
             <Title>About</Title>
             <Row>
                 <Col className="text-center">
-                    <p>I am 27-years-old.</p>
+                    <p>I am 27-years-old. I am a Software Developer living in Colorado.</p>
                 </Col>
             </Row>
         </Fragment>
